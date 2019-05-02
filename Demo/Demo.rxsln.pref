@@ -2,8 +2,11 @@
   <ActiveConfiguration value="Debug" />
   <ActivePlatform value="x86" />
   <SerializedValue name="ModuleBrowserState">
-    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{D7AF7348-A731-4835-B483-38989090FBDD}</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+    </ArrayOfString>
   </SerializedValue>
-  <ProjectBrowserState value="[Solution Demo[]]&#xD;&#xA;Solution Demo&#xD;&#xA;Solution Demo" />
+  <ProjectBrowserState value="[Solution Demo[Solution Items[]LPQ Automation Demo[]]]&#xD;&#xA;Solution Demo&#xD;&#xA;Solution Demo" />
   <StartupProject value="{D7AF7348-A731-4835-B483-38989090FBDD}" />
 </Properties>

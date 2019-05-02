@@ -1,0 +1,2478 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="2.6m"
+		durationms="155746"
+		type="root"
+		rid="264f87a603fc1e00"
+		totalerrorcount="1"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="7"
+		totalfailedtestcasecount="1"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="1"
+		childblockedcount="0"
+		totalsuccesscount="7"
+		totalfailedcount="1"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="jrohilla"
+		rxversion="9.0.1.0"
+		host="BHAVNAWKS101"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="5/2/2019 5:58:51 AM"
+		timestampiso="2019-05-02T12:58:51"
+		endtime="5/2/2019 6:01:27 AM"
+		timeoutfactor="1">
+		<detail>
+			Ranorex Testscript
+		</detail>
+		<activity
+			result="Failed"
+			duration="2.6m"
+			durationms="153809"
+			type="test-suite"
+			rid="1faf593a1422d66"
+			totalerrorcount="1"
+			totalwarningcount="0"
+			totalsuccesstestcasecount="7"
+			totalfailedtestcasecount="1"
+			totalblockedtestcasecount="0"
+			childsuccesscount="9"
+			childfailedcount="1"
+			childblockedcount="0"
+			totalsuccesscount="7"
+			totalfailedcount="1"
+			totalblockedcount="0"
+			totalmaintenancemodecount="0"
+			testsuitename="Demo"
+			headertext="Demo"
+			runconfigname="TestRun"
+			runlabel="">
+			<params>
+			</params>
+			<activity
+				result="Success"
+				duration="2.27s"
+				durationms="2274"
+				type="setup-container"
+				rid="5642a9561a311f9"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0">
+				<activity
+					result="Success"
+					duration="49ms"
+					durationms="49"
+					type="test-module"
+					rid="116b9d0b5d9e5379"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Cleanup_Script"
+					displayName="Cleanup_Script"
+					moduleid="692478bd-976e-4a67-a58c-8c43a63de296"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:00.276"
+						timeRelativeToTestModuleStartTime="00:00.013"
+						timeWallClock="05:58:51"
+						time="00:00.276"
+						level="Info"
+						category="Info">
+						<message>
+							Closed All IE Instances
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Cleanup_Script.cs"
+							codeline="45"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="2.21s"
+					durationms="2214"
+					type="test-module"
+					rid="3e1c5249b7598a0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Environment_Selection"
+					displayName="Environment_Selection"
+					moduleid="81721f05-e3c5-4143-bc4d-5f7472b44044"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="5.43s"
+				durationms="5430"
+				type="test-case"
+				rid="1b1fee3269d78bd8"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC01"
+				testcontainerid="2e2b9b38-9802-41dd-aa0d-0f72d7784822"
+				headertext="TC01"
+				displayName="TC01"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="2.37s"
+					durationms="2370"
+					type="test-module"
+					rid="13733dfb66a6188c"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Launch_Application"
+					displayName="Launch_Application"
+					moduleid="d0af3df0-bbfb-4b1d-b3a0-d7f9e99164b9"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.540"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="05:58:53"
+						time="00:02.540"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site https://beta.loanspq.com with browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="25"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:02.872"
+						timeRelativeToTestModuleStartTime="00:00.334"
+						timeWallClock="05:58:54"
+						time="00:02.872"
+						level="Info"
+						category="Info">
+						<message>
+							Launched LPQ Application in IE Browser and QA Environment
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Launch_Application.cs"
+							codeline="50"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="3.05s"
+					durationms="3054"
+					type="test-module"
+					rid="16242c3ca4afd133"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Validate_Application_Launched"
+					displayName="Validate_Application_Launched"
+					moduleid="52bee550-f508-49aa-b86d-a8c38f950095"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:06.571"
+						timeRelativeToTestModuleStartTime="00:01.659"
+						timeWallClock="05:58:57"
+						time="00:06.571"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:LoansPQ &amp; Xpress Accounts Login} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.606"
+						timeRelativeToTestModuleStartTime="00:02.695"
+						timeWallClock="05:58:58"
+						time="00:07.606"
+						level="Info"
+						category="Web Element">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.Img_HomepageLogo Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="42"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.941"
+						timeRelativeToTestModuleStartTime="00:03.030"
+						timeWallClock="05:58:59"
+						time="00:07.941"
+						level="Success"
+						category="Element Existance:">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.Img_HomepageLogo found Sucessfully on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="48"
+							loglvl="Success">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Failed"
+				duration="16.09s"
+				durationms="16093"
+				type="test-case"
+				rid="e901ff68aeef16"
+				totalerrorcount="1"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="1"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="1"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="1"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC02"
+				testcontainerid="071f70ef-fcaa-435e-9136-fdd6cd3ee932"
+				headertext="TC02"
+				displayName="TC02"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<params>
+					<param
+						name="IncorrectPassword">
+						password@
+					</param>
+				</params>
+				<activity
+					result="Failed"
+					duration="16.05s"
+					durationms="16046"
+					type="test-module"
+					rid="b3d14b293cf228c"
+					totalerrorcount="1"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Login_Application"
+					displayName="Login_Application"
+					moduleid="f3bd88c0-5f3c-4fed-9a52-87ea7beca965"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="Password"
+							value="password@">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:07.971"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="05:58:59"
+						time="00:07.971"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$Password = 'password@'
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:08.052"
+						timeRelativeToTestModuleStartTime="00:00.084"
+						timeWallClock="05:58:59"
+						time="00:08.052"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:LoansPQ &amp; Xpress Accounts Login} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:10.643"
+						timeRelativeToTestModuleStartTime="00:02.675"
+						timeWallClock="05:59:01"
+						time="00:10.643"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:ALOKA_QA_BH is set to given Editbox{InputTag:ctl00$bc$LoginMain$txtLogin}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.172"
+						timeRelativeToTestModuleStartTime="00:03.204"
+						timeWallClock="05:59:02"
+						time="00:11.172"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {InputTag:ctl00$bc$LoginMain$btnLogin}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:11.225"
+						timeRelativeToTestModuleStartTime="00:03.256"
+						timeWallClock="05:59:02"
+						time="00:11.225"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:LoansPQ &amp; Xpress Accounts Login} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.051"
+						timeRelativeToTestModuleStartTime="00:05.083"
+						timeWallClock="05:59:04"
+						time="00:13.051"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:password@ is set to given Editbox{InputTag:ctl00$bc$MFLPasswordPrompt$Password}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.607"
+						timeRelativeToTestModuleStartTime="00:05.639"
+						timeWallClock="05:59:04"
+						time="00:13.607"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {InputTag:ctl00$bc$MFLPasswordPrompt$btnSignIn}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:13.661"
+						timeRelativeToTestModuleStartTime="00:05.693"
+						timeWallClock="05:59:04"
+						time="00:13.661"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:LoansPQ &amp; Xpress Accounts Login} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.451"
+						timeRelativeToTestModuleStartTime="00:06.483"
+						timeWallClock="05:59:05"
+						time="00:14.451"
+						level="Info"
+						category="Web Element">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_InvalidLogin Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="62"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.568"
+						timeRelativeToTestModuleStartTime="00:06.599"
+						timeWallClock="05:59:05"
+						time="00:14.568"
+						level="Failure"
+						category="Element Existance:">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_InvalidLogin found on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="73"
+							loglvl="Failure">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:14.590"
+						timeRelativeToTestModuleStartTime="00:06.622"
+						timeWallClock="05:59:05"
+						time="00:14.590"
+						level="Info"
+						category="Web Element"
+						errimg="images_Demo_201_530df52f\Demo_201_530df52f_96d34d11_trace.jpg"
+						errthumb="images_Demo_201_530df52f\Demo_201_530df52f_96d34d11_trace_thumb.jpg">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_NewApp Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="175"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.894"
+						timeRelativeToTestModuleStartTime="00:15.926"
+						timeWallClock="05:59:15"
+						time="00:23.894"
+						level="Failure"
+						category="Element Existance:"
+						errimg="images_Demo_201_530df52f\Demo_201_530df52f_e3b361e2_trace.jpg"
+						errthumb="images_Demo_201_530df52f\Demo_201_530df52f_e3b361e2_trace_thumb.jpg">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_NewApp Coudnlt be found on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="195"
+							loglvl="Failure">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:23.925"
+						timeRelativeToTestModuleStartTime="00:15.957"
+						timeWallClock="05:59:15"
+						time="00:23.925"
+						level="Error"
+						category="Module"
+						errimg="images_Demo_201_530df52f\Demo_201_530df52f_37102661_trace.jpg"
+						errthumb="images_Demo_201_530df52f\Demo_201_530df52f_37102661_trace_thumb.jpg">
+						<message>
+							The module has failed because one or more actions have failed.
+						</message>
+						<metainfo
+							loglvl="Error">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="44ms"
+					durationms="44"
+					type="test-module"
+					rid="880265f44e4e5e2"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Cleanup_Script"
+					displayName="Cleanup_Script"
+					moduleid="692478bd-976e-4a67-a58c-8c43a63de296"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.017"
+						timeRelativeToTestModuleStartTime="00:00.002"
+						timeWallClock="05:59:15"
+						time="00:24.017"
+						level="Info"
+						category="Info">
+						<message>
+							Closed All IE Instances
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Cleanup_Script.cs"
+							codeline="45"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="22.59s"
+				durationms="22593"
+				type="test-case"
+				rid="7ce62bea65f5400"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="3"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC03"
+				testcontainerid="687bd9af-a654-4a06-9e8e-25c272d0262c"
+				headertext="TC03"
+				displayName="TC03"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<params>
+					<param
+						name="CorrectPassword">
+						password@2
+					</param>
+				</params>
+				<activity
+					result="Success"
+					duration="2.11s"
+					durationms="2113"
+					type="test-module"
+					rid="9ef4828023da200"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Launch_Application"
+					displayName="Launch_Application"
+					moduleid="d0af3df0-bbfb-4b1d-b3a0-d7f9e99164b9"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.061"
+						timeRelativeToTestModuleStartTime="00:00.000"
+						timeWallClock="05:59:15"
+						time="00:24.061"
+						level="Info"
+						category="Website">
+						<message>
+							Opening web site https://beta.loanspq.com with browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="25"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:24.143"
+						timeRelativeToTestModuleStartTime="00:00.082"
+						timeWallClock="05:59:15"
+						time="00:24.143"
+						level="Info"
+						category="Info">
+						<message>
+							Launched LPQ Application in IE Browser and QA Environment
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Launch_Application.cs"
+							codeline="50"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="11.77s"
+					durationms="11765"
+					type="test-module"
+					rid="f5660f81f462762"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Login_Application"
+					displayName="Login_Application"
+					moduleid="f3bd88c0-5f3c-4fed-9a52-87ea7beca965"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+						<varbinding
+							name="Password"
+							value="password@2">
+						</varbinding>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.181"
+						timeRelativeToTestModuleStartTime="00:00.004"
+						timeWallClock="05:59:17"
+						time="00:26.181"
+						level="Info"
+						category="Data">
+						<message>
+							Current variable values:<br/>$Password = 'password@2'
+						</message>
+						<metainfo
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:26.283"
+						timeRelativeToTestModuleStartTime="00:00.106"
+						timeWallClock="05:59:17"
+						time="00:26.283"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:LoansPQ &amp; Xpress Accounts Login} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:28.715"
+						timeRelativeToTestModuleStartTime="00:02.537"
+						timeWallClock="05:59:20"
+						time="00:28.715"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:ALOKA_QA_BH is set to given Editbox{InputTag:ctl00$bc$LoginMain$txtLogin}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.224"
+						timeRelativeToTestModuleStartTime="00:03.046"
+						timeWallClock="05:59:20"
+						time="00:29.224"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {InputTag:ctl00$bc$LoginMain$btnLogin}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:29.281"
+						timeRelativeToTestModuleStartTime="00:03.103"
+						timeWallClock="05:59:20"
+						time="00:29.281"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:LoansPQ &amp; Xpress Accounts Login} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.261"
+						timeRelativeToTestModuleStartTime="00:05.083"
+						timeWallClock="05:59:22"
+						time="00:31.261"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:password@2 is set to given Editbox{InputTag:ctl00$bc$MFLPasswordPrompt$Password}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.774"
+						timeRelativeToTestModuleStartTime="00:05.596"
+						timeWallClock="05:59:23"
+						time="00:31.774"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {InputTag:ctl00$bc$MFLPasswordPrompt$btnSignIn}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:31.821"
+						timeRelativeToTestModuleStartTime="00:05.643"
+						timeWallClock="05:59:23"
+						time="00:31.821"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:LoansPQ &amp; Xpress Accounts Login} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:35.614"
+						timeRelativeToTestModuleStartTime="00:09.436"
+						timeWallClock="05:59:26"
+						time="00:35.614"
+						level="Info"
+						category="Web Element">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_InvalidLogin Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="62"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:37.747"
+						timeRelativeToTestModuleStartTime="00:11.569"
+						timeWallClock="05:59:29"
+						time="00:37.747"
+						level="Success"
+						category="Element Existance:">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_InvalidLogin Does'nt exist on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="68"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:37.770"
+						timeRelativeToTestModuleStartTime="00:11.592"
+						timeWallClock="05:59:29"
+						time="00:37.770"
+						level="Info"
+						category="Web Element">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_NewApp Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="175"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:37.918"
+						timeRelativeToTestModuleStartTime="00:11.740"
+						timeWallClock="05:59:29"
+						time="00:37.918"
+						level="Success"
+						category="Element Existance:">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_NewApp found Sucessfully on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="183"
+							loglvl="Success">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="8.71s"
+					durationms="8708"
+					type="test-module"
+					rid="35a88ae886a7d700"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="NavigateToVehicleApp"
+					displayName="NavigateToVehicleApp"
+					moduleid="821de1c6-a25f-4137-b03e-6c3708ea912f"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:37.970"
+						timeRelativeToTestModuleStartTime="00:00.026"
+						timeWallClock="05:59:29"
+						time="00:37.970"
+						level="Info"
+						category="Web Element">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_NewApp Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="175"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.027"
+						timeRelativeToTestModuleStartTime="00:00.083"
+						timeWallClock="05:59:29"
+						time="00:38.027"
+						level="Success"
+						category="Element Existance:">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_NewApp found Sucessfully on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="183"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.063"
+						timeRelativeToTestModuleStartTime="00:00.119"
+						timeWallClock="05:59:29"
+						time="00:38.063"
+						level="Info"
+						category="Web Element">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_NewApp Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="42"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:38.120"
+						timeRelativeToTestModuleStartTime="00:00.176"
+						timeWallClock="05:59:29"
+						time="00:38.120"
+						level="Success"
+						category="Element Existance:">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.AspnetForm.Label_NewApp found Sucessfully on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="48"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:41.259"
+						timeRelativeToTestModuleStartTime="00:03.315"
+						timeWallClock="05:59:32"
+						time="00:41.259"
+						level="Info"
+						category="Move to Element">
+						<message>
+							Mouse cursor is moved to Given Elment{ImgTag:New App}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="127"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:41.767"
+						timeRelativeToTestModuleStartTime="00:03.823"
+						timeWallClock="05:59:33"
+						time="00:41.767"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {ATag: Vehicle&#160;&#160;}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:41.831"
+						timeRelativeToTestModuleStartTime="00:03.887"
+						timeWallClock="05:59:33"
+						time="00:41.831"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:Main Page} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:42.397"
+						timeRelativeToTestModuleStartTime="00:04.453"
+						timeWallClock="05:59:33"
+						time="00:42.397"
+						level="Info"
+						category="Web Element">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.VehicleForm.Img_VehicleApp Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="175"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.629"
+						timeRelativeToTestModuleStartTime="00:08.685"
+						timeWallClock="05:59:37"
+						time="00:46.629"
+						level="Success"
+						category="Element Existance:">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.VehicleForm.Img_VehicleApp found Sucessfully on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="183"
+							loglvl="Success">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="4.28s"
+				durationms="4283"
+				type="test-case"
+				rid="a541b7541b07e58"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC4"
+				testcontainerid="81227392-3203-43f0-a493-ebfc69022bd6"
+				headertext="TC4"
+				displayName="TC4"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="4.28s"
+					durationms="4281"
+					type="test-module"
+					rid="12f2c9854f5d89a0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Page_Object"
+					displayName="Page_Object"
+					moduleid="c3c127b0-54b8-4ffe-98a4-85a0919454e1"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:46.717"
+						timeRelativeToTestModuleStartTime="00:00.061"
+						timeWallClock="05:59:38"
+						time="00:46.717"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:Short Application} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="2.62s"
+				durationms="2616"
+				type="test-case"
+				rid="2b906c3c188683ed"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC5"
+				testcontainerid="7b262f31-1acb-475d-b679-b0b9a7679f16"
+				headertext="TC5"
+				displayName="TC5"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="2.61s"
+					durationms="2613"
+					type="test-module"
+					rid="28941d4f52e79f8"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Handle_DropDown"
+					displayName="Handle_DropDown"
+					moduleid="15c6734c-775c-4138-969d-1825eff228d9"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.047"
+						timeRelativeToTestModuleStartTime="00:00.105"
+						timeWallClock="05:59:42"
+						time="00:51.047"
+						level="Info"
+						category="Get No. of List Item">
+						<message>
+							9
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+							codeline="56"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.144"
+						timeRelativeToTestModuleStartTime="00:00.203"
+						timeWallClock="05:59:42"
+						time="00:51.144"
+						level="Info"
+						category="Info">
+						<message>
+							9
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+							codeline="60"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.238"
+						timeRelativeToTestModuleStartTime="00:00.296"
+						timeWallClock="05:59:42"
+						time="00:51.238"
+						level="Info"
+						category="Info">
+						<message>
+							
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+							codeline="66"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.267"
+						timeRelativeToTestModuleStartTime="00:00.326"
+						timeWallClock="05:59:42"
+						time="00:51.267"
+						level="Info"
+						category="Info">
+						<message>
+							Consolidation
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+							codeline="66"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.299"
+						timeRelativeToTestModuleStartTime="00:00.358"
+						timeWallClock="05:59:42"
+						time="00:51.299"
+						level="Info"
+						category="Info">
+						<message>
+							Dealer Purchase
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+							codeline="66"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.337"
+						timeRelativeToTestModuleStartTime="00:00.395"
+						timeWallClock="05:59:42"
+						time="00:51.337"
+						level="Info"
+						category="Info">
+						<message>
+							Debt Consolidation
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+							codeline="66"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.367"
+						timeRelativeToTestModuleStartTime="00:00.425"
+						timeWallClock="05:59:42"
+						time="00:51.367"
+						level="Info"
+						category="Info">
+						<message>
+							Lease Buyout
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+							codeline="66"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.400"
+						timeRelativeToTestModuleStartTime="00:00.458"
+						timeWallClock="05:59:42"
+						time="00:51.400"
+						level="Info"
+						category="Info">
+						<message>
+							Other
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+							codeline="66"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.435"
+						timeRelativeToTestModuleStartTime="00:00.494"
+						timeWallClock="05:59:42"
+						time="00:51.435"
+						level="Info"
+						category="Info">
+						<message>
+							Private Party Purchase
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+							codeline="66"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.467"
+						timeRelativeToTestModuleStartTime="00:00.526"
+						timeWallClock="05:59:42"
+						time="00:51.467"
+						level="Info"
+						category="Info">
+						<message>
+							Purchase
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+							codeline="66"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:51.500"
+						timeRelativeToTestModuleStartTime="00:00.559"
+						timeWallClock="05:59:42"
+						time="00:51.500"
+						level="Info"
+						category="Info">
+						<message>
+							Refinance
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+							codeline="66"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="1m"
+				durationms="62052"
+				type="test-case"
+				rid="112bef164b8acf9c"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC06"
+				testcontainerid="a44d4ba9-88ed-40a9-b77e-b4d20f579b7f"
+				headertext="TC06"
+				displayName="TC06"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="1m"
+					durationms="62051"
+					type="test-module"
+					rid="131e1482c0bf67c0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Submit_Vehicle_Form"
+					displayName="Submit_Vehicle_Form"
+					moduleid="47743b60-fac2-46d0-b206-82cddc187099"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="00:53.623"
+						timeRelativeToTestModuleStartTime="00:00.065"
+						timeWallClock="05:59:44"
+						time="00:53.623"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:Short Application} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:56.814"
+						timeRelativeToTestModuleStartTime="00:03.256"
+						timeWallClock="05:59:48"
+						time="00:56.814"
+						level="Info"
+						category="Select Item">
+						<message>
+							Selected EMPLOYEE in List for WebElement{SelectTag:ou_EmployeeOfLenderType}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="135"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="00:56.872"
+						timeRelativeToTestModuleStartTime="00:03.314"
+						timeWallClock="05:59:48"
+						time="00:56.872"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:Short Application} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:04.145"
+						timeRelativeToTestModuleStartTime="00:10.587"
+						timeWallClock="05:59:55"
+						time="01:04.145"
+						level="Info"
+						category="Web Element">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.VehicleForm.DropDown_PurposeType Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="175"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:04.260"
+						timeRelativeToTestModuleStartTime="00:10.701"
+						timeWallClock="05:59:55"
+						time="01:04.260"
+						level="Success"
+						category="Element Existance:">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.VehicleForm.DropDown_PurposeType found Sucessfully on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="183"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:04.359"
+						timeRelativeToTestModuleStartTime="00:10.800"
+						timeWallClock="05:59:55"
+						time="01:04.359"
+						level="Info"
+						category="Select Item">
+						<message>
+							Selected Other in List for WebElement{SelectTag:RequestType_RequestType}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="135"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:04.414"
+						timeRelativeToTestModuleStartTime="00:10.856"
+						timeWallClock="05:59:55"
+						time="01:04.414"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:Short Application} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:08.387"
+						timeRelativeToTestModuleStartTime="00:14.829"
+						timeWallClock="05:59:59"
+						time="01:08.387"
+						level="Info"
+						category="Web Element">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.VehicleForm.Editbox_SSN Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="175"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:08.484"
+						timeRelativeToTestModuleStartTime="00:14.925"
+						timeWallClock="05:59:59"
+						time="01:08.484"
+						level="Success"
+						category="Element Existance:">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.VehicleForm.Editbox_SSN found Sucessfully on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="183"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:10.624"
+						timeRelativeToTestModuleStartTime="00:17.065"
+						timeWallClock="06:00:01"
+						time="01:10.624"
+						level="Info"
+						category="Set Attribute Value">
+						<message>
+							Property Value:  is set to Propetry: value for WebElment {InputTag:sa_SSN}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="144"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:11.818"
+						timeRelativeToTestModuleStartTime="00:18.259"
+						timeWallClock="06:00:03"
+						time="01:11.818"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:000000001 is set to given Editbox{InputTag:sa_SSN}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:12.114"
+						timeRelativeToTestModuleStartTime="00:18.556"
+						timeWallClock="06:00:03"
+						time="01:12.114"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:{TAB} is set to given Editbox{InputTag:sa_SSN}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:12.173"
+						timeRelativeToTestModuleStartTime="00:18.614"
+						timeWallClock="06:00:03"
+						time="01:12.173"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:Short Application} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:28.814"
+						timeRelativeToTestModuleStartTime="00:35.256"
+						timeWallClock="06:00:20"
+						time="01:28.814"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:Short Application} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:29.980"
+						timeRelativeToTestModuleStartTime="00:36.422"
+						timeWallClock="06:00:21"
+						time="01:29.980"
+						level="Info"
+						category="Set Attribute Value">
+						<message>
+							Property Value:  is set to Propetry: value for WebElment {InputTag:AmountRequested}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="144"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:30.452"
+						timeRelativeToTestModuleStartTime="00:36.893"
+						timeWallClock="06:00:21"
+						time="01:30.452"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:10 is set to given Editbox{InputTag:AmountRequested}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:33.599"
+						timeRelativeToTestModuleStartTime="00:40.041"
+						timeWallClock="06:00:24"
+						time="01:33.599"
+						level="Info"
+						category="Get Attribute Value">
+						<message>
+							Property Value: False is fecthed for Propetry: checked for WebElment {InputTag:CQuest$rpt$ctl01$SingleCustomQuestion$chkAnswer$1}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="159"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:34.177"
+						timeRelativeToTestModuleStartTime="00:40.619"
+						timeWallClock="06:00:25"
+						time="01:34.177"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {InputTag:CQuest$rpt$ctl01$SingleCustomQuestion$chkAnswer$1}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:34.225"
+						timeRelativeToTestModuleStartTime="00:40.667"
+						timeWallClock="06:00:25"
+						time="01:34.225"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:Short Application} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:38.906"
+						timeRelativeToTestModuleStartTime="00:45.348"
+						timeWallClock="06:00:30"
+						time="01:38.906"
+						level="Info"
+						category="Web Element">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.VehicleForm.DropDown_AutomaticPayments Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="42"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:39.010"
+						timeRelativeToTestModuleStartTime="00:45.452"
+						timeWallClock="06:00:30"
+						time="01:39.010"
+						level="Success"
+						category="Element Existance:">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.VehicleForm.DropDown_AutomaticPayments found Sucessfully on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="48"
+							loglvl="Success">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:39.142"
+						timeRelativeToTestModuleStartTime="00:45.583"
+						timeWallClock="06:00:30"
+						time="01:39.142"
+						level="Info"
+						category="Select Item">
+						<message>
+							Selected No in List for WebElement{SelectTag:CQuest$rpt$ctl03$SingleCustomQuestion$drpAnswer}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="135"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:39.270"
+						timeRelativeToTestModuleStartTime="00:45.712"
+						timeWallClock="06:00:30"
+						time="01:39.270"
+						level="Info"
+						category="Select Item">
+						<message>
+							Selected No in List for WebElement{SelectTag:CQuest$rpt$ctl04$SingleCustomQuestion$drpAnswer}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="135"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:39.336"
+						timeRelativeToTestModuleStartTime="00:45.777"
+						timeWallClock="06:00:30"
+						time="01:39.336"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:Short Application} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:40.748"
+						timeRelativeToTestModuleStartTime="00:47.190"
+						timeWallClock="06:00:32"
+						time="01:40.748"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:1 is set to given Editbox{InputTag:LoanTerm}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:43.348"
+						timeRelativeToTestModuleStartTime="00:49.790"
+						timeWallClock="06:00:34"
+						time="01:43.348"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {ButtonTag:runcredit_btnSavePullCredit}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:43.382"
+						timeRelativeToTestModuleStartTime="00:49.824"
+						timeWallClock="06:00:34"
+						time="01:43.382"
+						level="Info"
+						category="Web Element">
+						<message>
+							Validating Element DemoRepository.LoansPQXpressAccountsLogin.VehicleForm.Label_RefferedProducts Existance with in browser 'IE' in normal mode.
+						</message>
+						<metainfo
+							itemindex="0"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="175"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:55.589"
+						timeRelativeToTestModuleStartTime="01:02.031"
+						timeWallClock="06:00:46"
+						time="01:55.589"
+						level="Success"
+						category="Element Existance:">
+						<message>
+							Element DemoRepository.LoansPQXpressAccountsLogin.VehicleForm.Label_RefferedProducts found Sucessfully on Web Page
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="183"
+							loglvl="Success">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="38.34s"
+				durationms="38336"
+				type="test-case"
+				rid="132be088e9193f08"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC07"
+				testcontainerid="5fe073dd-2e85-4741-abcd-3ee888a656f2"
+				headertext="TC07"
+				displayName="TC07"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="38.33s"
+					durationms="38334"
+					type="test-module"
+					rid="366104a792b48cc0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Upload_Vehicle_App_Documents"
+					displayName="Upload_Vehicle_App_Documents"
+					moduleid="38c79d77-7d57-4930-a442-98259d27ef68"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="01:58.270"
+						timeRelativeToTestModuleStartTime="00:02.658"
+						timeWallClock="06:00:49"
+						time="01:58.270"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {ATag:pre_lab_lbtnLetters}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="01:58.332"
+						timeRelativeToTestModuleStartTime="00:02.720"
+						timeWallClock="06:00:49"
+						time="01:58.332"
+						level="Info"
+						category="Waiting for Page to Load.">
+						<message>
+							WebPage {WebDocument:Qualifying Products} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="217"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:03.811"
+						timeRelativeToTestModuleStartTime="00:08.198"
+						timeWallClock="06:00:55"
+						time="02:03.811"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {InputTag:PDFs$ctl01$button}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:04.845"
+						timeRelativeToTestModuleStartTime="00:09.232"
+						timeWallClock="06:00:56"
+						time="02:04.845"
+						level="Info"
+						category="Waiting for Form to Load.">
+						<message>
+							Web Form {Form:Document Support Request - Internet Explorer} is loading
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="207"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:08.325"
+						timeRelativeToTestModuleStartTime="00:12.712"
+						timeWallClock="06:00:59"
+						time="02:08.325"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:Add New Document is set to given Editbox{SelectTag:ctl00$bc$RequestType}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:10.882"
+						timeRelativeToTestModuleStartTime="00:15.269"
+						timeWallClock="06:01:02"
+						time="02:10.882"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {InputTag:ctl00$bc$Attachment1}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:17.124"
+						timeRelativeToTestModuleStartTime="00:21.511"
+						timeWallClock="06:01:08"
+						time="02:17.124"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:C:\Users\jrohilla\Downloads\File1.pdf is set to given Editbox{ComboBox:1148}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="120"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:23.827"
+						timeRelativeToTestModuleStartTime="00:28.214"
+						timeWallClock="06:01:15"
+						time="02:23.827"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:Uploading Document is set to given Editbox{TextAreaTag:Uploading Document}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:27.358"
+						timeRelativeToTestModuleStartTime="00:31.746"
+						timeWallClock="06:01:18"
+						time="02:27.358"
+						level="Info"
+						category="Set Data">
+						<message>
+							Data:New Document is set to given Editbox{InputTag:ctl00$bc$NewName}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="113"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:27.904"
+						timeRelativeToTestModuleStartTime="00:32.291"
+						timeWallClock="06:01:19"
+						time="02:27.904"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {InputTag:ctl00$bc$lstApplicableTypes$5}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:28.448"
+						timeRelativeToTestModuleStartTime="00:32.835"
+						timeWallClock="06:01:19"
+						time="02:28.448"
+						level="Info"
+						category="Click">
+						<message>
+							Clicked on Element {InputTag:ctl00$Buttons$btnSubmit}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="86"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:33.457"
+						timeRelativeToTestModuleStartTime="00:37.844"
+						timeWallClock="06:01:24"
+						time="02:33.457"
+						level="Info"
+						category="Get Attribute Value">
+						<message>
+							Property Value: Your request has been successfully submitted. is fecthed for Propetry: Text for WebElment {Text:65535}
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+							codeline="168"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:33.491"
+						timeRelativeToTestModuleStartTime="00:37.879"
+						timeWallClock="06:01:24"
+						time="02:33.491"
+						level="Info"
+						category="PopUpText">
+						<message>
+							Your request has been successfully submitted.
+						</message>
+						<metainfo
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Upload_Vehicle_App_Documents.cs"
+							codeline="98"
+							loglvl="Info">
+						</metainfo>
+					</item>
+					<item
+						timeRelativeToTestSuiteStartTime="02:33.905"
+						timeRelativeToTestModuleStartTime="00:38.293"
+						timeWallClock="06:01:25"
+						time="02:33.905"
+						level="Success"
+						category="Status">
+						<message>
+							Document Uploaded Successfully
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Upload_Vehicle_App_Documents.cs"
+							codeline="106"
+							loglvl="Success">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="48ms"
+				durationms="48"
+				type="test-case"
+				rid="1598bc53f77209f6"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="1"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="1"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="1"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0"
+				testcontainername="TC08"
+				testcontainerid="1f478da1-6fea-4d14-8c7c-3f4591b85dda"
+				headertext="TC08"
+				displayName="TC08"
+				iteration="1"
+				activity-exectype="execute"
+				conditionstate="none">
+				<activity
+					result="Success"
+					duration="46ms"
+					durationms="46"
+					type="test-module"
+					rid="18d9313c0bbfdb00"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="XML_Validation"
+					displayName="XML_Validation"
+					moduleid="086b5d1b-7bd6-47d5-8823-4e878f0099da"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="02:33.955"
+						timeRelativeToTestModuleStartTime="00:00.006"
+						timeWallClock="06:01:25"
+						time="02:33.955"
+						level="Success"
+						category="Info">
+						<message>
+							9.1 matched under tagname name Version in xml file at path D:\Meridian Link\Testdata\Config.xml
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\CommonFucntions.cs"
+							codeline="52"
+							loglvl="Success">
+						</metainfo>
+					</item>
+				</activity>
+			</activity>
+			<activity
+				result="Success"
+				duration="51ms"
+				durationms="51"
+				type="teardown-container"
+				rid="14ed3dda328cba5d"
+				totalerrorcount="0"
+				totalwarningcount="0"
+				totalsuccesstestcasecount="0"
+				totalfailedtestcasecount="0"
+				totalblockedtestcasecount="0"
+				childsuccesscount="2"
+				childfailedcount="0"
+				childblockedcount="0"
+				totalsuccesscount="0"
+				totalfailedcount="0"
+				totalblockedcount="0"
+				totalmaintenancemodecount="0">
+				<activity
+					result="Success"
+					duration="49ms"
+					durationms="49"
+					type="test-module"
+					rid="9edd9b163aa5610"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="Cleanup_Script"
+					displayName="Cleanup_Script"
+					moduleid="692478bd-976e-4a67-a58c-8c43a63de296"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+					<item
+						timeRelativeToTestSuiteStartTime="02:34.002"
+						timeRelativeToTestModuleStartTime="00:00.003"
+						timeWallClock="06:01:25"
+						time="02:34.002"
+						level="Info"
+						category="Info">
+						<message>
+							Closed All IE Instances
+						</message>
+						<metainfo
+							itemindex="1"
+							codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Cleanup_Script.cs"
+							codeline="45"
+							loglvl="Info">
+						</metainfo>
+					</item>
+				</activity>
+				<activity
+					result="Success"
+					duration="1ms"
+					durationms="1"
+					type="test-module"
+					rid="1068de56a7f717b0"
+					totalerrorcount="0"
+					totalwarningcount="0"
+					totalsuccesstestcasecount="0"
+					totalfailedtestcasecount="0"
+					totalblockedtestcasecount="0"
+					childsuccesscount="0"
+					childfailedcount="0"
+					childblockedcount="0"
+					totalsuccesscount="0"
+					totalfailedcount="0"
+					totalblockedcount="0"
+					totalmaintenancemodecount="0"
+					modulename="ReportToPDF"
+					displayName="ReportToPDF"
+					moduleid="ffa0759d-37d2-4abb-89a7-411f0fcf2dfe"
+					moduletype="UserCode"
+					iteration="1"
+					activity-exectype="execute"
+					testentry-activity-type="testmodule">
+					<varbindings>
+					</varbindings>
+				</activity>
+			</activity>
+		</activity>
+		<item
+			timeRelativeToTestSuiteStartTime="02:35.682"
+			timeRelativeToTestModuleStartTime="02:35.682"
+			timeWallClock="06:01:26"
+			time="02:35.682"
+			level="Success"
+			category="PDFReport">
+			<message>
+				Successfully created PDF: <a href='C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Reports\Demo_20190502_055851.pdf' target='_blank'>Open PDF</a>
+			</message>
+			<metainfo
+				codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\ReportToPDF_7.X.cs"
+				codeline="61"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="02:35.723"
+			timeRelativeToTestModuleStartTime="02:35.723"
+			timeWallClock="06:01:27"
+			time="02:35.723"
+			level="Failure"
+			category="User">
+			<message>
+				Rethrow Exception within PDF Module (Necessary for correct error value)
+			</message>
+			<metainfo
+				codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\ReportToPDF_7.X.cs"
+				codeline="163"
+				loglvl="Failure">
+			</metainfo>
+		</item>
+	</activity>
+</report>
