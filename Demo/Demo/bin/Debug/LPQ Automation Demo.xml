@@ -1,0 +1,966 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>LPQ Automation Demo</name>
+    </assembly>
+    <members>
+        <member name="M:Demo.Cleanup_Script.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="T:Demo.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Demo.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the DemoRepository repository.
+            </summary>
+        </member>
+        <member name="M:Demo.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Demo.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Demo.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Demo.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Demo.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Demo.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Demo.CloseBrowser.NewVariable">
+            <summary>
+            Gets or sets the value of variable NewVariable.
+            </summary>
+        </member>
+        <member name="T:Demo.CommonFucntions">
+            <summary>
+            Description of CommonFucntions.
+            </summary>
+        </member>
+        <member name="T:Demo.DemoRepository">
+            <summary>
+            The class representing the DemoRepository element repository.
+            </summary>
+        </member>
+        <member name="M:Demo.DemoRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the DemoRepository element repository.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepository.NewVariable">
+            <summary>
+            Gets or sets the value of variable NewVariable.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepository.LoansPQXpressAccountsLogin">
+            <summary>
+            The LoansPQXpressAccountsLogin folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepository.Window_ChooseFileToUpload">
+            <summary>
+            The Window_ChooseFileToUpload folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepository.MessageFromWebpage">
+            <summary>
+            The MessageFromWebpage folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepository.DocumentSupportRequestInternetExpl">
+            <summary>
+            The DocumentSupportRequestInternetExpl folder.
+            </summary>
+        </member>
+        <member name="T:Demo.DemoRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:Demo.DemoRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Demo.DemoRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder">
+            <summary>
+            The LoansPQXpressAccountsLoginAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new LoansPQXpressAccountsLogin  folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Img_HomepageLogo">
+            <summary>
+            The Img_HomepageLogo item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Img_HomepageLogoInfo">
+            <summary>
+            The Img_HomepageLogo item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_Login">
+            <summary>
+            The Editbox_Login item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_LoginInfo">
+            <summary>
+            The Editbox_Login item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Button_Login">
+            <summary>
+            The Button_Login item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Button_LoginInfo">
+            <summary>
+            The Button_Login item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_Question1">
+            <summary>
+            The Editbox_Question1 item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_Question1Info">
+            <summary>
+            The Editbox_Question1 item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_Question2">
+            <summary>
+            The Editbox_Question2 item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_Question2Info">
+            <summary>
+            The Editbox_Question2 item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Button_Continue">
+            <summary>
+            The Button_Continue item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Button_ContinueInfo">
+            <summary>
+            The Button_Continue item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Select_OfficialFamilyUse">
+            <summary>
+            The Select_OfficialFamilyUse item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Select_OfficialFamilyUseInfo">
+            <summary>
+            The Select_OfficialFamilyUse item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.RadioButton_IndirectLoan">
+            <summary>
+            The RadioButton_IndirectLoan item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.RadioButton_IndirectLoanInfo">
+            <summary>
+            The RadioButton_IndirectLoan item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Button_LettersAndDocs">
+            <summary>
+            The Button_LettersAndDocs item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Button_LettersAndDocsInfo">
+            <summary>
+            The Button_LettersAndDocs item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Button_RquestDocSupport">
+            <summary>
+            The Button_RquestDocSupport item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Button_RquestDocSupportInfo">
+            <summary>
+            The Button_RquestDocSupport item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Title_DocumentSupportRequest">
+            <summary>
+            The Title_DocumentSupportRequest item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Title_DocumentSupportRequestInfo">
+            <summary>
+            The Title_DocumentSupportRequest item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Button_SubmitRequest">
+            <summary>
+            The Button_SubmitRequest item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Button_SubmitRequestInfo">
+            <summary>
+            The Button_SubmitRequest item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_Descriptionold">
+            <summary>
+            The Editbox_Descriptionold item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_DescriptionoldInfo">
+            <summary>
+            The Editbox_Descriptionold item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_DocumentName">
+            <summary>
+            The Editbox_DocumentName item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_DocumentNameInfo">
+            <summary>
+            The Editbox_DocumentName item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_Browse">
+            <summary>
+            The Editbox_Browse item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Editbox_BrowseInfo">
+            <summary>
+            The Editbox_Browse item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Select_RequestType">
+            <summary>
+            The Select_RequestType item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.Select_RequestTypeInfo">
+            <summary>
+            The Select_RequestType item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.AspnetForm">
+            <summary>
+            The AspnetForm folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.LoansPQXpressAccountsLoginAppFolder.VehicleForm">
+            <summary>
+            The VehicleForm folder.
+            </summary>
+        </member>
+        <member name="T:Demo.DemoRepositoryFolders.AspnetFormFolder">
+            <summary>
+            The AspnetFormFolder folder.
+            </summary>
+        </member>
+        <member name="M:Demo.DemoRepositoryFolders.AspnetFormFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new AspnetForm  folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.Label_NewApp">
+            <summary>
+            The Label_NewApp item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.Label_NewAppInfo">
+            <summary>
+            The Label_NewApp item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.ListItem_Vehicle">
+            <summary>
+            The ListItem_Vehicle item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.ListItem_VehicleInfo">
+            <summary>
+            The ListItem_Vehicle item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.Editbox_Password">
+            <summary>
+            The Editbox_Password item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.Editbox_PasswordInfo">
+            <summary>
+            The Editbox_Password item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.Button_SignIn">
+            <summary>
+            The Button_SignIn item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.Button_SignInInfo">
+            <summary>
+            The Button_SignIn item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.Label_InvalidLogin">
+            <summary>
+            The Label_InvalidLogin item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.AspnetFormFolder.Label_InvalidLoginInfo">
+            <summary>
+            The Label_InvalidLogin item info.
+            </summary>
+        </member>
+        <member name="T:Demo.DemoRepositoryFolders.VehicleFormFolder">
+            <summary>
+            The VehicleFormFolder folder.
+            </summary>
+        </member>
+        <member name="M:Demo.DemoRepositoryFolders.VehicleFormFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new VehicleForm  folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_SSN">
+            <summary>
+            The Editbox_SSN item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_SSNInfo">
+            <summary>
+            The Editbox_SSN item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Button_PullCreitAndSave">
+            <summary>
+            The Button_PullCreitAndSave item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Button_PullCreitAndSaveInfo">
+            <summary>
+            The Button_PullCreitAndSave item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.DropDown_PurposeType">
+            <summary>
+            The DropDown_PurposeType item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.DropDown_PurposeTypeInfo">
+            <summary>
+            The DropDown_PurposeType item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.CheckBox_HearAboutOrganisation">
+            <summary>
+            The CheckBox_HearAboutOrganisation item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.CheckBox_HearAboutOrganisationInfo">
+            <summary>
+            The CheckBox_HearAboutOrganisation item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.DropDown_DirectDposit">
+            <summary>
+            The DropDown_DirectDposit item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.DropDown_DirectDpositInfo">
+            <summary>
+            The DropDown_DirectDposit item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_AmountRequested">
+            <summary>
+            The Editbox_AmountRequested item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_AmountRequestedInfo">
+            <summary>
+            The Editbox_AmountRequested item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.DropDown_AutomaticPayments">
+            <summary>
+            The DropDown_AutomaticPayments item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.DropDown_AutomaticPaymentsInfo">
+            <summary>
+            The DropDown_AutomaticPayments item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Img_VehicleApp">
+            <summary>
+            The Img_VehicleApp item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Img_VehicleAppInfo">
+            <summary>
+            The Img_VehicleApp item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_LoanTerm">
+            <summary>
+            The Editbox_LoanTerm item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_LoanTermInfo">
+            <summary>
+            The Editbox_LoanTerm item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Label_RefferedProducts">
+            <summary>
+            The Label_RefferedProducts item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Label_RefferedProductsInfo">
+            <summary>
+            The Label_RefferedProducts item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_ContactNumber">
+            <summary>
+            The Editbox_ContactNumber item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_ContactNumberInfo">
+            <summary>
+            The Editbox_ContactNumber item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_Description">
+            <summary>
+            The Editbox_Description item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_DescriptionInfo">
+            <summary>
+            The Editbox_Description item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Checkbox_VehicleLoan">
+            <summary>
+            The Checkbox_VehicleLoan item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Checkbox_VehicleLoanInfo">
+            <summary>
+            The Checkbox_VehicleLoan item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.SaForeignCellPhoneTbPhoneNumber">
+            <summary>
+            The SaForeignCellPhoneTbPhoneNumber item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.SaForeignCellPhoneTbPhoneNumberInfo">
+            <summary>
+            The SaForeignCellPhoneTbPhoneNumber item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_Ext">
+            <summary>
+            The Editbox_Ext item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.VehicleFormFolder.Editbox_ExtInfo">
+            <summary>
+            The Editbox_Ext item info.
+            </summary>
+        </member>
+        <member name="T:Demo.DemoRepositoryFolders.Window_ChooseFileToUploadAppFolder">
+            <summary>
+            The Window_ChooseFileToUploadAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Demo.DemoRepositoryFolders.Window_ChooseFileToUploadAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new Window_ChooseFileToUpload  folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.Window_ChooseFileToUploadAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.Window_ChooseFileToUploadAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.Window_ChooseFileToUploadAppFolder.Editbox_FileName">
+            <summary>
+            The Editbox_FileName item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.Window_ChooseFileToUploadAppFolder.Editbox_FileNameInfo">
+            <summary>
+            The Editbox_FileName item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.Window_ChooseFileToUploadAppFolder.Button_Open">
+            <summary>
+            The Button_Open item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.Window_ChooseFileToUploadAppFolder.Button_OpenInfo">
+            <summary>
+            The Button_Open item info.
+            </summary>
+        </member>
+        <member name="T:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder">
+            <summary>
+            The MessageFromWebpageAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new MessageFromWebpage  folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder.PopUp_SelectApplicableType">
+            <summary>
+            The PopUp_SelectApplicableType item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder.PopUp_SelectApplicableTypeInfo">
+            <summary>
+            The PopUp_SelectApplicableType item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder.Button_OK">
+            <summary>
+            The Button_OK item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder.Button_OKInfo">
+            <summary>
+            The Button_OK item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder.Label_RequestSubmittedSuccessfully">
+            <summary>
+            The Label_RequestSubmittedSuccessfully item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder.Label_RequestSubmittedSuccessfullyInfo">
+            <summary>
+            The Label_RequestSubmittedSuccessfully item info.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder.Label_WouldYouLikeToImportMemberData">
+            <summary>
+            The Label_WouldYouLikeToImportMemberData item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.MessageFromWebpageAppFolder.Label_WouldYouLikeToImportMemberDataInfo">
+            <summary>
+            The Label_WouldYouLikeToImportMemberData item info.
+            </summary>
+        </member>
+        <member name="T:Demo.DemoRepositoryFolders.DocumentSupportRequestInternetExplAppFolder">
+            <summary>
+            The DocumentSupportRequestInternetExplAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:Demo.DemoRepositoryFolders.DocumentSupportRequestInternetExplAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new DocumentSupportRequestInternetExpl  folder.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.DocumentSupportRequestInternetExplAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:Demo.DemoRepositoryFolders.DocumentSupportRequestInternetExplAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:Demo.Environment_Selection">
+            <summary>
+            Description of Environment_Selection.
+            </summary>
+        </member>
+        <member name="M:Demo.Environment_Selection.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Demo.Environment_Selection.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Demo.ExcelFunctions">
+            <summary>
+            Description of ExcelFunctions.
+            </summary>
+        </member>
+        <member name="T:Demo.Handle_DropDown">
+            <summary>
+            Description of Handle_DropDown.
+            </summary>
+        </member>
+        <member name="M:Demo.Handle_DropDown.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Demo.Handle_DropDown.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Demo.Page_Object">
+            <summary>
+            Description of Handle_Dropdown.
+            </summary>
+        </member>
+        <member name="M:Demo.Page_Object.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="T:Demo.Launch_Application">
+            <summary>
+            Description of LaunchApplication.
+            </summary>
+        </member>
+        <member name="M:Demo.Launch_Application.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="T:Demo.Login_Application">
+            <summary>
+            Description of Login.
+            </summary>
+        </member>
+        <member name="M:Demo.Login_Application.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="T:Demo.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:Demo.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the DemoRepository repository.
+            </summary>
+        </member>
+        <member name="M:Demo.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Demo.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Demo.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Demo.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Demo.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Demo.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:Demo.Page_Xpath">
+            <summary>
+            Description of Page_Xpath.
+            </summary>
+        </member>
+        <member name="T:Demo.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:Demo.Recording1.repo">
+            <summary>
+            Holds an instance of the DemoRepository repository.
+            </summary>
+        </member>
+        <member name="M:Demo.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Demo.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:Demo.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:Demo.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:Demo.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:Demo.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="P:Demo.Recording1.NewVariable1">
+            <summary>
+            Gets or sets the value of variable NewVariable1.
+            </summary>
+        </member>
+        <member name="P:Demo.Recording1.NewVariable2">
+            <summary>
+            Gets or sets the value of variable NewVariable2.
+            </summary>
+        </member>
+        <member name="P:Demo.Recording1.NewVariable3">
+            <summary>
+            Gets or sets the value of variable NewVariable3.
+            </summary>
+        </member>
+        <member name="P:Demo.Recording1.NewVariable4">
+            <summary>
+            Gets or sets the value of variable NewVariable4.
+            </summary>
+        </member>
+        <member name="P:Demo.Recording1.NewVariable5">
+            <summary>
+            Gets or sets the value of variable NewVariable5.
+            </summary>
+        </member>
+        <member name="P:Demo.Recording1.NewVariable">
+            <summary>
+            Gets or sets the value of variable NewVariable.
+            </summary>
+        </member>
+        <member name="T:Demo.NavigateToVehicleApp">
+            <summary>
+            Description of VlidateApplicationLaunched.
+            </summary>
+        </member>
+        <member name="M:Demo.NavigateToVehicleApp.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="T:ReportToPDF.ReportToPDF">
+            <summary>
+            Allows conversion of Ranorex report files to PDF
+            </summary>
+        </member>
+        <member name="M:ReportToPDF.ReportToPDF.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ReportToPDF.ReportToPDF.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:Demo.Submit_Vehicle_Form">
+            <summary>
+            Description of SubmitVehicleForm.
+            </summary>
+        </member>
+        <member name="M:Demo.Submit_Vehicle_Form.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="T:Demo.Upload_Vehicle_App_Documents">
+            <summary>
+            Description of UploadFile.
+            </summary>
+        </member>
+        <member name="M:Demo.Upload_Vehicle_App_Documents.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="T:Demo.Validate_Application_Launched">
+            <summary>
+            Description of ValidateApplicationLaunched.
+            </summary>
+        </member>
+        <member name="M:Demo.Validate_Application_Launched.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="T:Demo.WebFunctions">
+            <summary>
+            Description of WebFucntions.
+            </summary>
+        </member>
+        <member name="T:Demo.XML_Validation">
+            <summary>
+            Description of XMLValidation.
+            </summary>
+        </member>
+        <member name="M:Demo.XML_Validation.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:Demo.XML_Validation.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this module.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

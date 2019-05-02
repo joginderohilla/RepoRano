@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="101ea0874f6838a3"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="jrohilla"
+		rxversion="9.0.1.0"
+		host="BHAVNAWKS101"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="5/1/2019 5:30:15 AM"
+		timestampiso="2019-05-01T12:30:15"
+		endtime="5/1/2019 5:31:33 AM"
+		timeoutfactor="1"
+		module="Handle_DropDown">
+		<detail>
+			Handle_DropDown
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.829"
+			timeRelativeToTestModuleStartTime="00:09.830"
+			timeWallClock="05:30:24"
+			time="00:09.829"
+			level="Info"
+			category="Get No. of List Item">
+			<message>
+				0
+			</message>
+			<metainfo
+				codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\Handle_DropDown.cs"
+				codeline="56"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

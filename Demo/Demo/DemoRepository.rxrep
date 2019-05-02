@@ -1,0 +1,618 @@
+﻿<repository
+id="b590ab70-9635-4d2a-a866-6ae20c0423bc"
+name="DemoRepository"
+rxversion="9.0">
+	<codegen
+	classname="DemoRepository"
+	namespace="Demo">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="1bb099e4-5eb9-4130-84cd-2ad7c4afe3d7"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="38df592c-ad85-4bf0-a3c1-fab2be9beebc"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="False">
+			<basepath>
+				/dom[@domain='www.ranorex.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="541bdfc7-8392-4aff-866f-8a9527ababe5"
+		isrooted="True"
+		name="LoansPQXpressAccountsLogin"
+		refpath="/dom[@domain='beta.loanspq.com']"
+		searchtimeout="30000ms"
+		usecache="False">
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="55bfa309-992f-4489-9c40-c2979a9cdb72"
+			name="Img_HomepageLogo"
+			refimgid="3178a84f-376a-4eee-8f7d-727c3c4de7a8"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[1]//img[@src='https://beta.loanspq.com/images/logo_frontpage.gif']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="dd81b37f-8fb0-4713-83fa-4f5e6719b029"
+			name="Editbox_Login"
+			refimgid="198293d1-9776-486a-a053-292f6b1386c4"
+			refpath="/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/td/table/tbody/tr[1]/td/center/input[@name='ctl00$bc$LoginMain$txtLogin']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/?/?/table//input[@name='ctl00$bc$LoginMain$txtLogin']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="04319099-a0b6-4aad-bcd0-d80ec1fc226a"
+			name="Button_Login"
+			refimgid="4b7f6095-920f-4c33-9d6c-0cb8b234f68e"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/?/?/table//input[@name='ctl00$bc$LoginMain$btnLogin']
+			</item>
+			<folder
+			addcaps="unknown,webelement,formtag"
+			capname="form"
+			id="07de2267-1342-40f9-971f-366693965382"
+			isrooted="True"
+			name="AspnetForm"
+			refpath="/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="8b92ef18-cc48-4f08-8537-092cfcd6fc12"
+				name="Label_NewApp"
+				refimgid="394cbce9-03ef-4d44-8a99-d75e696f990b"
+				refpath="/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/div[2]/ul/li[2]/img[@alt='New App']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/?/?/ul/?/?/img[@alt='New App']
+				</item>
+				<item
+				addcaps="unknown,webelement,atag"
+				capname="atag"
+				id="bc08fba5-85ac-4b90-b1ad-e0be997bd8c8"
+				name="ListItem_Vehicle"
+				refimgid="40a7cd67-f26e-4ba1-85f9-2a9bb84e5cfe"
+				refpath="/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/div[2]/ul/li[2]/ul/li[6]/a[@innertext=' Vehicle  ']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/?/?/ul/?/?/ul/?/?/a[@innertext=' Vehicle&#160;&#160;']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="f704986e-abbb-4379-8fc3-56d5f4a1067f"
+				name="Editbox_Password"
+				refimgid="a9128f79-ad96-4a91-8104-0b11466c31c0"
+				refpath="/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr/td[2]/input[@name='ctl00$bc$MFLPasswordPrompt$Password']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/?/?/table/tbody/tr[3]/?/?/table//input[@name='ctl00$bc$MFLPasswordPrompt$Password']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="f127c316-d5e7-4daa-932e-ee537d2476f6"
+				name="Button_SignIn"
+				refimgid="4e52f53d-5161-4fe4-9c18-48ce449da4e0"
+				refpath="/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr/td[2]/input[@name='ctl00$bc$MFLPasswordPrompt$btnSignIn']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/?/?/table/tbody/tr[3]/?/?/table//input[@name='ctl00$bc$MFLPasswordPrompt$btnSignIn']
+				</item>
+				<item
+				addcaps="unknown,webelement,spantag"
+				capname="spantag"
+				id="0fb65e35-ef9c-4f88-9295-52ec9e80de90"
+				name="Label_InvalidLogin"
+				refimgid="1228ff2d-45b6-496f-8329-02e14c49d176"
+				refpath="/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/td/table/tbody/tr[3]/td/table/tbody/tr/td[2]/span[@innertext='An invalid login or password has been entered.  After 5 failed attempts, your account will be locked.  Please, contact your administrator for further assistance.']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/?/?/table/tbody/tr[3]/?/?/table//span[@innertext~'^An\ invalid\ login\ or\ passw']
+				</item>
+				<basepath>
+					/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']
+				</basepath>
+			</folder>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="334f253d-b3c9-437a-a0ff-51cc49cd2afc"
+			name="Editbox_Question1"
+			refimgid="37549693-13a7-4607-8052-3c03288a3fba"
+			refpath="/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr[1]/td[2]/input[@name='ctl00$bc$MFLQuestions$Answer1']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/?/?/table/tbody/tr[2]/?/?/table//input[@name='ctl00$bc$MFLQuestions$Answer1']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="71d9d3e3-1141-413c-9d34-6f8bef86fa03"
+			name="Editbox_Question2"
+			refimgid="720df7bc-0793-4a6c-a49f-ac0a0deb9930"
+			refpath="/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/td/table/tbody/tr[2]/td/table/tbody/tr[2]/td[2]/input[@name='ctl00$bc$MFLQuestions$Answer2']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/?/?/table/tbody/tr[2]/?/?/table//input[@name='ctl00$bc$MFLQuestions$Answer2']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7955ad2f-2be2-4c98-9773-8125194a83e4"
+			name="Button_Continue"
+			refimgid="da6953a4-e9b3-4b10-9e61-f8219a969426"
+			refpath="/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/td/table/tbody/tr[3]/td[@innertext='        Do you want us to remember this computer so you can avoid having to answer your challenge            questions the next time you sign on?  To ensure your information is secure, we recommend             not registering public computers.            ']/center/input[@name='ctl00$bc$MFLQuestions$btnContinue']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//form[#'aspnetForm']/center/table[2]/tbody/tr[2]/td/table//td[@innertext~'^\ \ \ \ \ \ \ \ Do\ you\ want\ us\ ']/?/?/input[@name='ctl00$bc$MFLQuestions$btnContinue']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="00b22bfd-973b-4550-bb4d-e363e75de0b6"
+			name="Select_OfficialFamilyUse"
+			refimgid="4d4f9312-5466-4753-a890-ea4dc77a384b"
+			refpath="/dom[@domain='beta.loanspq.com' and @caption='Short Application']//select[#'ou_EmployeeOfLenderType']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//select[#'ou_EmployeeOfLenderType']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f7f87c7f-dae7-4af4-9d96-7b4f3981d7cf"
+			name="RadioButton_IndirectLoan"
+			refimgid="2fc36e7b-719a-4a26-a49e-f3f639603795"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//span[#'IsIndirectLoan']/input[@type='radio' and @value='N']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="a8e3f334-57fb-4c02-9228-6ced25d54ada"
+			name="Button_LettersAndDocs"
+			refimgid="09f1f7c6-529a-41b9-b1b2-d1d3cdbbf751"
+			refpath="/dom[@domain='beta.loanspq.com']//a[#'pre_lab_lbtnLetters']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//a[#'pre_lab_lbtnLetters']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="9d54fc0d-2375-40eb-aadc-5cbf413a4529"
+			name="Button_RquestDocSupport"
+			refimgid="309bf7d1-9bdc-497e-bf46-d760defe66f9"
+			refpath="/dom[@domain='beta.loanspq.com']//div[#'pnlBody']/div[3]/input[@name='PDFs$ctl01$button']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//div[#'pnlBody']/?/?/input[@name='PDFs$ctl01$button']
+			</item>
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="19ccbc6e-5ad5-43c2-a8aa-3cddd0238d31"
+			name="Title_DocumentSupportRequest"
+			refimgid="b44874f9-843c-453b-8f0b-93ea1d08cbd3"
+			refpath="/dom[@domain='beta.loanspq.com' and @caption='Document Support Request']//div[#'pageTitle']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//div[#'pageTitle']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="f5c8f7bf-79cf-471f-b579-26981808ab14"
+			name="Button_SubmitRequest"
+			refimgid="4f75bb07-e894-495d-9e42-68b9f585ef23"
+			refpath="/dom[@domain='beta.loanspq.com' and @caption='Document Support Request']//div[#'buttons']/input[@name='ctl00$Buttons$btnSubmit']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//div[#'buttons']/input[@name='ctl00$Buttons$btnSubmit']
+			</item>
+			<item
+			addcaps="unknown,webelement,textareatag"
+			capname="textareatag"
+			id="dd5aa331-9204-4248-8110-f4f5ee6044d8"
+			name="Editbox_Descriptionold"
+			refimgid="082f9961-af90-416d-ae7f-af71825e55c3"
+			refpath="/dom[@domain='beta.loanspq.com' and @caption='Document Support Request']//div[#'content']/div/table/tbody/tr[6]/td[2]/textarea[@required='False']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//div[#'content']/?/?/table/tbody/tr[6]/?/?/textarea[@required='False']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="3a4a5dad-196c-4bab-a26e-73bd1eea54c8"
+			name="Editbox_DocumentName"
+			refimgid="b2cb7550-73f6-41df-98f4-d7c12db8a432"
+			refpath="/dom[@domain='beta.loanspq.com' and @caption='Document Support Request']//div[#'content']/div/table/tbody/tr[6]/td[2]/input[@name='ctl00$bc$NewName']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//div[#'content']/?/?/table/tbody/tr[6]/?/?/input[@name='ctl00$bc$NewName']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="20aef02e-0503-4e28-8508-9e29a33c975f"
+			name="Editbox_Browse"
+			refimgid="a97d4178-0f53-4d6d-b6a4-e4eed42b926f"
+			refpath="/dom[@domain='beta.loanspq.com' and @caption='Document Support Request']//div[#'content']/div/table/tbody/tr[14]/td[2]/input[@name='ctl00$bc$Attachment1']"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//div[#'content']/?/?/table/tbody/tr[14]/?/?/input[@name='ctl00$bc$Attachment1']
+			</item>
+			<item
+			addcaps="unknown,webelement,selecttag"
+			capname="selecttag"
+			id="c305f423-3c97-41fb-b111-213e082914a3"
+			name="Select_RequestType"
+			refimgid="2cdbdfae-cd34-49ea-be44-e6593c381a43"
+			searchtimeout="30000ms">
+				/dom[@domain='beta.loanspq.com']//div[#'content']/?/?/table/tbody/tr[1]/?/?/select[@name='ctl00$bc$RequestType']
+			</item>
+			<folder
+			capname="webdocument"
+			id="c0ec1c1e-36dd-4e04-bfd8-67c7352ac018"
+			isrooted="True"
+			name="VehicleForm"
+			searchtimeout="30000ms"
+			usecache="False">
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="87428001-3325-43ec-957f-3560ceef94db"
+				name="Editbox_SSN"
+				refimgid="a20ca695-67a8-4de2-a764-406e1200f827"
+				refpath="/dom[@domain='beta.loanspq.com']//input[#'sa_SSN']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//input[#'sa_SSN']
+				</item>
+				<item
+				addcaps="unknown,webelement,buttontag"
+				capname="buttontag"
+				id="264c4563-a584-45e8-8693-7b1bb383938e"
+				name="Button_PullCreitAndSave"
+				refimgid="f2a2880b-7d38-4933-a205-7cdc7a5c6538"
+				refpath="/dom[@domain='beta.loanspq.com']//button[#'runcredit_btnSavePullCredit']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//button[#'runcredit_btnSavePullCredit']
+				</item>
+				<item
+				addcaps="unknown,webelement,selecttag"
+				capname="selecttag"
+				id="1bb73e5e-f863-4edb-86ee-f2310a820166"
+				name="DropDown_PurposeType"
+				refimgid="c83c70f0-70cd-4291-b58f-a68ce63a19dd"
+				refpath="/dom[@domain='beta.loanspq.com']//select[#'RequestType_RequestType']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//select[#'RequestType_RequestType']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="0ee590c5-c1de-4fce-ad95-7508bff282e7"
+				name="CheckBox_HearAboutOrganisation"
+				refimgid="cf402110-ea24-4a67-870b-4aee2812b4fb"
+				refpath="/dom[@domain='beta.loanspq.com']//table[#'content']/tbody/tr/td/table[3]/tbody/tr[1]/td[3]/table/tbody/tr[1]/td[2]/input[@name='CQuest$rpt$ctl01$SingleCustomQuestion$chkAnswer$1']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//table[#'content']//td/table[3]/tbody/tr[1]/td[3]/table/tbody/tr[1]/?/?/input[@name='CQuest$rpt$ctl01$SingleCustomQuestion$chkAnswer$1']
+				</item>
+				<item
+				addcaps="unknown,webelement,selecttag"
+				capname="selecttag"
+				id="8fe8c8a8-c8a4-4f37-8e10-dd1b7d077da3"
+				name="DropDown_DirectDposit"
+				refimgid="c0edc35c-fc63-4bd4-9234-2b6aafc2e98a"
+				refpath="/dom[@domain='beta.loanspq.com']//table[#'content']/tbody/tr/td/table[3]/tbody/tr[3]/td[3]/select[@name='CQuest$rpt$ctl04$SingleCustomQuestion$drpAnswer']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//table[#'content']//td/table[3]/tbody/tr[3]/td[3]/select[@name='CQuest$rpt$ctl04$SingleCustomQuestion$drpAnswer']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="06c5b5cf-89f9-4268-af6a-3fba3243c29c"
+				name="Editbox_AmountRequested"
+				refimgid="da344474-c631-4b66-be1c-cc59ebee0934"
+				refpath="/dom[@domain='beta.loanspq.com']//input[#'AmountRequested']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//input[#'AmountRequested']
+				</item>
+				<item
+				addcaps="unknown,webelement,selecttag"
+				capname="selecttag"
+				id="55a50d22-3c94-4613-b9ae-5e17f172bd85"
+				name="DropDown_AutomaticPayments"
+				refimgid="218d80e5-96ee-4482-9dc4-517738abf329"
+				refpath="/dom[@domain='beta.loanspq.com']//table[#'content']/tbody/tr/td/table[3]/tbody/tr[2]/td[3]/select[@name='CQuest$rpt$ctl03$SingleCustomQuestion$drpAnswer']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//table[#'content']//td/table[3]/tbody/tr[2]/td[3]/select[@name='CQuest$rpt$ctl03$SingleCustomQuestion$drpAnswer']
+				</item>
+				<item
+				addcaps="unknown,webelement,imgtag"
+				capname="imgtag"
+				id="6cddc7f5-6161-4ece-b082-caf1cb476d7c"
+				name="Img_VehicleApp"
+				refimgid="bd752439-7f7c-4653-ba90-d77ffb8bfd5e"
+				refpath="/dom[@domain='beta.loanspq.com']//form[#'frm']/table/tbody/tr[2]/td[1]/img[@src='https://beta.loanspq.com/Lender/Vehicle/images/vl_section_title.gif']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//form[#'frm']/table//img[@src='https://beta.loanspq.com/Lender/Vehicle/images/vl_section_title.gif']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="a62a3faa-f730-4f2f-810f-71b271907b41"
+				name="Editbox_LoanTerm"
+				refimgid="378a266e-c0bf-47f7-b5b8-bd94f5ff81f4"
+				refpath="/dom[@domain='beta.loanspq.com']//input[#'LoanTerm']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//input[#'LoanTerm']
+				</item>
+				<item
+				addcaps="unknown,webelement,divtag"
+				capname="divtag"
+				id="6eba4486-c9a3-412e-8375-0ea694a3772d"
+				name="Label_RefferedProducts"
+				refimgid="64a9fec2-c488-4050-ba22-cc5e58b29b65"
+				refpath="/dom[@domain='beta.loanspq.com']//div[#'TAB_divReferredProducts']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//div[#'TAB_divReferredProducts']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="f5ec995a-9b6e-4184-9392-19e90a7fc505"
+				name="Editbox_ContactNumber"
+				refimgid="19a7a7c0-84ce-4c60-aa0b-dd7cd5491caa"
+				refpath="/dom[@domain='beta.loanspq.com' and @caption='Document Support Request']//div[#'content']/div/table/tbody/tr[3]/td[2]/input[@name='ctl00$bc$ContactNumber']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//div[#'content']/?/?/table/tbody/tr[3]/?/?/input[@name='ctl00$bc$ContactNumber']
+				</item>
+				<item
+				addcaps="unknown,webelement,textareatag"
+				capname="textareatag"
+				id="081d1753-f617-4220-9c3b-ce57a85473ec"
+				name="Editbox_Description"
+				refimgid="ee554bc6-a7d9-432f-8fd2-0bcbe784948b"
+				refpath="/dom[@domain='beta.loanspq.com' and @caption='Document Support Request']//div[#'content']/div/table/tbody/tr[12]/td[2]/textarea[@required='False']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//div[#'content']/?/?/table/tbody/tr[12]/?/?/textarea[@required='False']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="fef27086-dd2a-4ef6-83fd-234476c09bd7"
+				name="Checkbox_VehicleLoan"
+				refimgid="ff5db802-8865-45dd-8664-848868337176"
+				refpath="/dom[@domain='beta.loanspq.com' and @caption='Document Support Request']//div[#'content']/div/table/tbody/tr[7]/td[2]/table/tbody/tr[2]/td[3]/input[@name='ctl00$bc$lstApplicableTypes$5']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//div[#'content']/?/?/table/tbody/tr[7]/?/?/table/tbody/tr[2]/?/?/input[@name='ctl00$bc$lstApplicableTypes$5']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="02bf63f1-a49e-4e28-b262-93b876648642"
+				name="SaForeignCellPhoneTbPhoneNumber"
+				refimgid="d144a4b0-0f83-4a37-86c9-81f4c39aea56"
+				refpath="/dom[@domain='beta.loanspq.com']//input[#'sa_ForeignCellPhone_tbPhoneNumber']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//input[#'sa_ForeignCellPhone_tbPhoneNumber']
+				</item>
+				<item
+				addcaps="unknown,webelement,inputtag"
+				capname="inputtag"
+				id="987bb098-86a1-4e88-8921-d928a0acb97c"
+				name="Editbox_Ext"
+				refimgid="52e706ad-4757-4d40-a75c-548af45a9c54"
+				refpath="/dom[@domain='beta.loanspq.com']//input[#'sa_WorkPhoneExtension']"
+				searchtimeout="30000ms">
+					/dom[@domain='beta.loanspq.com']//input[#'sa_WorkPhoneExtension']
+				</item>
+				<basepath>
+					/dom[@domain='beta.loanspq.com']
+				</basepath>
+			</folder>
+			<basepath>
+				/dom[@domain='beta.loanspq.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="83e0c404-aa31-4728-8c58-47bfb460ce60"
+		isrooted="True"
+		name="Window_ChooseFileToUpload"
+		refimgid="03f95aab-3358-4fd7-a11f-cf0137ebd773"
+		refpath="/form[@title='Choose File to Upload']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="combobox,nativewindow"
+			capname="combobox"
+			id="bd2964c0-d55c-4893-87a3-02a45b9f520f"
+			name="Editbox_FileName"
+			refimgid="4efb634f-9f26-4e5e-a1ed-36d1af2d62e7"
+			refpath="/form[@title='Choose File to Upload']/combobox[@controlid='1148']"
+			searchtimeout="30000ms">
+				/form[@title='Choose File to Upload']/combobox[@controlid='1148']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="ad2bcc8e-63d9-4c87-96c1-82b0e0f697f6"
+			name="Button_Open"
+			refimgid="9caebca1-7d83-47f3-9549-b663f8f29eff"
+			refpath="/form[@title='Choose File to Upload']/button[@text='&amp;Open']"
+			searchtimeout="30000ms">
+				/form[@title='Choose File to Upload']/button[@text='&amp;Open']
+			</item>
+			<basepath>
+				/form[@title='Choose File to Upload']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="a5d1fad4-2c47-4ad2-8b4d-304eb67d49aa"
+		isrooted="True"
+		name="MessageFromWebpage"
+		refpath="/form[@title='Message from webpage']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="71a4faa3-9bd3-4aa0-b542-a487b0835c61"
+			name="PopUp_SelectApplicableType"
+			refimgid="04c6b907-fc38-4c05-9b70-807d98b8f56b"
+			searchtimeout="30000ms">
+				/form[@title='Message from webpage']/text[@controlid='65535' and @text='Please select applicable type(s) for new document.']
+			</item>
+			<item
+			addcaps="button,nativewindow"
+			capname="button"
+			id="7320a05a-7f4f-4a2d-9cdc-f6235f4ecd31"
+			name="Button_OK"
+			refimgid="7384da24-f781-4b7f-aa94-d1471dda13f0"
+			refpath="/form[@title='Message from webpage']/button[@text='OK']"
+			searchtimeout="30000ms">
+				/form[@title='Message from webpage']/button[@text='OK']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="c90fb797-fa7f-4c06-8e3a-0d4aa1b5d142"
+			name="Label_RequestSubmittedSuccessfully"
+			refimgid="e6071fb5-5522-41a1-80f4-b25b8301cb89"
+			searchtimeout="30000ms">
+				/form[@title='Message from webpage']/text[@text='Your request has been successfully submitted.']
+			</item>
+			<item
+			addcaps="text,nativewindow"
+			capname="text"
+			id="306657c3-cd14-4d24-b6dc-6a7c516494b5"
+			name="Label_WouldYouLikeToImportMemberData"
+			refimgid="de1cd752-03ab-444d-a18d-33eea4bea57c"
+			searchtimeout="30000ms">
+				/form[@title='Message from webpage']/text[@text='Would you like to import member data and override any existing values you may have entered?']
+			</item>
+			<basepath>
+				/form[@title='Message from webpage']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="d02b9c9c-b226-4ae5-b0e6-b4b04504e18d"
+		isrooted="True"
+		name="DocumentSupportRequestInternetExpl"
+		refimgid="2958c972-21c4-4f30-87e7-467000bd3d26"
+		refpath="/form[@title='Document Support Request - Internet Explorer']"
+		searchtimeout="30000ms"
+		usecache="True">
+			<basepath>
+				/form[@title~'^Document\ Support\ Request\ ']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAAOWSURBVDhPjZJtTFtVGMdPRUL8QIIouI63Dcmy
+bjayTRHJ5qYzum8m2+pm4qLZnNmbG6wtb6JlGwOHWjcC6DaivEx0hVEu1BXalW5tE14Lcy1Lh5S2
+t+1GSym03Aq94nm898IHv+kv+eec5Dz/5znPcw76L/IumeIDPYk588aEk/Rk/BQ1EEfN9/LocC/P
+FlShjNWwfyHTP72+WC0SntP8cqTppr1v+MMl3yMhTRkSIKSJXZrriqnxXEGHfTfQSX8zsq26Vkgq
+ILI2lmsN+5us7qbx6YjjiRjTngTwtSbizubD0ZKGBp9Apqpki7Dxj2vRDGdkSc5vz9wk09gK7vqi
+Gu8EDs++DdiOwNG6C4jf+6BiPAwf6bx4a5XRn3xKUSsSKWK8tahpxc1k3CjTmgr6ntBDfjNEZ4WA
++xGY5Hl/7b1mCu6QG70H26Zcn1sW6GP3/PiNOvN88um2euflmN2cP71YJdr705hb436A6YAAsB7B
+kDw3WK3Wvofx7bg14vaMdaVq6faaQfNZY5D+uNeLsy/esfPFym1cAuF59a8/Wx5GqNnXAQ8iePSt
+cBpj7QaAkVguYJXsC3fGjvXMTB3p88HO+pHptJKuq9zBnhrdhMv7KcYOBFbFIfig0YwF5Rp31he9
+ZCaj9WVqMqPkN/LlKqO7bIjCp4wB2NNijaRKiREuQedQNYW9z4Dr+haoG/dAlZ2GSkYXWU3SUMHo
+wh9ROD+xBDJLBI4bArC70bKUWqS0IvynYEfYvW452JKAax56oNy2iF/9bsDHVlyRimRmRKYXqci0
+wm4ytZAgU6Sd5FqJ0sk/e6sR/e1P/HpxGMGNxjPRMgsFktFIOLvS8IC72v9heRL1P26JCx/60eA9
+oHJiqXlhWaSwzQnO6dpeKOjIYZ/4OWln/POnFdvWijvaGTn4kg6Sv7IeRQt6XmiWiK3bXK7q31pt
+iHyi90Hh/YXlozpv6DW5yZVWTLg2yNTOvG8MjuO6mbn8wRB+v5uMpkuVo9yPDPXwguxNMiSKNS8W
+EbZcuZHaR7jwif45EI9FQHI/wq2fDYfhwG0Sv3N9dDGztMv+bH7bZq6FsIbX4mtGRez+rdKKlNyy
+awMvfaly5FTfndl+dSS6q9mK32wYpXZ+PxB4pUrrTCsk9EknbmZxZhbqHuL7W5HecxkBeQlN2r9C
+xVsk9fuYHn9gJj2YIrk1niJWdjP7K0ln2t9FMtlTq1YGhP4B4PYIf3slspsAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+		<var
+		id="2087e133-8bfb-4280-8840-9c4f43a9c7de"
+		name="NewVariable">
+		</var>
+	</variables>
+</repository>

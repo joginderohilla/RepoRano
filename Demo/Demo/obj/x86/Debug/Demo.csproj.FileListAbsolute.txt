@@ -1,0 +1,10 @@
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Demo.rxtmg
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Demo.rxtst
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Demo.exe.config
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Demo.xml
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Demo.exe
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Demo.pdb
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\obj\x86\Debug\Demo.csprojResolveAssemblyReference.cache
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\obj\x86\Debug\Demo.exe
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\obj\x86\Debug\Demo.pdb

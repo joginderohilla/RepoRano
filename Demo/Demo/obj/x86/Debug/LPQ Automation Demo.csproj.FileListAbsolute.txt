@@ -1,0 +1,28 @@
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\obj\x86\Debug\LPQ Automation Demo.csprojResolveAssemblyReference.cache
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Demo.rxtmg
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Demo.rxtst
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\LPQ Automation Demo.exe.config
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\LPQ Automation Demo.xml
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\LPQ Automation Demo.exe
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\LPQ Automation Demo.pdb
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\BoDi.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Gherkin.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\nunit.framework.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Ranorex.PDF.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\System.ValueTuple.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\TechTalk.SpecFlow.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Utf8Json.dll
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\BoDi.pdb
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\nunit.framework.pdb
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\nunit.framework.xml
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\System.ValueTuple.xml
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\TechTalk.SpecFlow.pdb
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.pdb
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\Utf8Json.xml
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\obj\x86\Debug\LPQ Automation Demo.exe
+C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\obj\x86\Debug\LPQ Automation Demo.pdb

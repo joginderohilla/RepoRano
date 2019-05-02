@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="InProgress">
+	<activity
+		result="Success"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="245174a4fe872130"
+		totalerrorcount="0"
+		totalwarningcount="0"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="jrohilla"
+		rxversion="9.0.1.0"
+		host="BHAVNAWKS101"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1366x768"
+		timestamp="4/30/2019 10:50:17 PM"
+		timestampiso="2019-05-01T05:50:17"
+		endtime="4/30/2019 10:50:51 PM"
+		timeoutfactor="1"
+		module="Launch_Application">
+		<detail>
+			Launch_Application
+		</detail>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:21.434"
+			timeRelativeToTestModuleStartTime="00:21.435"
+			timeWallClock="22:50:39"
+			time="00:21.434"
+			level="Success"
+			category="Info">
+			<message>
+				9.1 matched under tagname name Versionin xml file at path D:\Meridian Link\Testdata\Config.xml
+			</message>
+			<metainfo
+				itemindex="1"
+				codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\CommonFucntions.cs"
+				codeline="51"
+				loglvl="Success">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:33.234"
+			timeRelativeToTestModuleStartTime="00:33.235"
+			timeWallClock="22:50:51"
+			time="00:33.234"
+			level="Info"
+			category="Website">
+			<message>
+				Opening web site https://beta.loanspq.com with browser 'IE' in normal mode.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\WebFunctions.cs"
+				codeline="25"
+				loglvl="Info">
+			</metainfo>
+		</item>
+	</activity>
+</report>

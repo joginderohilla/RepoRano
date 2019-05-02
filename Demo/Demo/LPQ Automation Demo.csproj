@@ -1,0 +1,317 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <Import Project="..\packages\SpecFlow.NUnit.3.0.199\build\SpecFlow.NUnit.props" Condition="Exists('..\packages\SpecFlow.NUnit.3.0.199\build\SpecFlow.NUnit.props')" />
+  <Import Project="..\packages\NUnit.3.11.0\build\NUnit.props" Condition="Exists('..\packages\NUnit.3.11.0\build\NUnit.props')" />
+  <PropertyGroup>
+    <ProjectGuid>{D7AF7348-A731-4835-B483-38989090FBDD}</ProjectGuid>
+    <TargetFrameworkProfile />
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Demo</RootNamespace>
+    <AssemblyName>LPQ Automation Demo</AssemblyName>
+    <NoWarn>1591</NoWarn>
+    <RanorexVersion>9.0</RanorexVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <RANOREX_BIN_PATH Condition=" '$(RANOREX_BIN_PATH)' == '' ">$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Ranorex\Studio', 'InstallDir', null, RegistryView.Registry64, RegistryView.Registry32))\Bin</RANOREX_BIN_PATH>
+    <RanorexTargetsPath>$(RANOREX_BIN_PATH)\Ranorex.MSBuild.Targets</RanorexTargetsPath>
+    <projectdefaultrepository>43fbf334-8943-4dfa-90c7-9e9dee337904</projectdefaultrepository>
+    <StartAction>Project</StartAction>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Platform)' == 'x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <Prefer32Bit>True</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>True</DebugSymbols>
+    <DebugType>Full</DebugType>
+    <Optimize>False</Optimize>
+    <CheckForOverflowUnderflow>True</CheckForOverflowUnderflow>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>$(OutputPath)\$(AssemblyName).xml</DocumentationFile>
+    <DebugSymbols>False</DebugSymbols>
+    <DebugType>None</DebugType>
+    <Optimize>True</Optimize>
+    <CheckForOverflowUnderflow>False</CheckForOverflowUnderflow>
+    <DefineConstants>TRACE</DefineConstants>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BoDi">
+      <HintPath>..\packages\BoDi.1.4.1\lib\net45\BoDi.dll</HintPath>
+    </Reference>
+    <Reference Include="Gherkin">
+      <HintPath>..\packages\Gherkin.6.0.0\lib\net45\Gherkin.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Office.Interop.Excel" />
+    <Reference Include="Microsoft.VisualBasic">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>..\packages\NUnit.3.11.0\lib\net45\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Bootstrapper">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Core.Resolver">
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="Ranorex.PDF">
+      <HintPath>..\..\..\..\..\Downloads\Ranorex.PDF.dll</HintPath>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Cef">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.ChromeWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Delphi">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.FirefoxWeb">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Flex">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Java">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Mobile">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Msaa">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Office">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Qt">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.RawText">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Sap">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Uia">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Web">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WebDriver">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Win32">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.WinForms">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Ranorex.Plugin.Wpf">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>..\packages\System.Runtime.InteropServices.RuntimeInformation.4.3.0\lib\net45\System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceProcess">
+      <RequiredTargetFramework>4.0</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.4.0\lib\netstandard1.0\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>..\packages\System.ValueTuple.4.4.0\lib\netstandard1.0\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow">
+      <HintPath>..\packages\SpecFlow.3.0.199\lib\net45\TechTalk.SpecFlow.dll</HintPath>
+    </Reference>
+    <Reference Include="TechTalk.SpecFlow.NUnit.SpecFlowPlugin">
+      <HintPath>..\packages\SpecFlow.NUnit.3.0.199\lib\net45\TechTalk.SpecFlow.NUnit.SpecFlowPlugin.dll</HintPath>
+    </Reference>
+    <Reference Include="Utf8Json">
+      <HintPath>..\packages\Utf8Json.1.3.7\lib\net45\Utf8Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <id>966fe4cb-70fa-4eda-9b74-cf53cdd3c33a</id>
+    </Compile>
+    <Compile Include="Cleanup_Script.cs">
+      <id>48090475-9fac-4d65-af53-f235e105d281</id>
+    </Compile>
+    <Compile Include="CloseBrowser.cs">
+      <BoundTo>efb1959b-acf7-4c87-a2f9-d497a606f5b9</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>389d9d45-ba77-4bb5-86fb-1fcf4c6c219a</id>
+    </Compile>
+    <Compile Include="CloseBrowser.UserCode.cs">
+      <BoundTo>efb1959b-acf7-4c87-a2f9-d497a606f5b9</BoundTo>
+      <DependentUpon>CloseBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>b1ce4f3d-49f1-4f0b-9c7b-1d52c0af2437</id>
+    </Compile>
+    <Compile Include="CommonFucntions.cs">
+      <id>8b5af577-ccc0-40e5-a347-6a82bef82926</id>
+    </Compile>
+    <Compile Include="DemoRepository.cs">
+      <BoundTo>43fbf334-8943-4dfa-90c7-9e9dee337904</BoundTo>
+      <DependentUpon>DemoRepository.rxrep</DependentUpon>
+      <RepositoryCode>true</RepositoryCode>
+      <id>ebbed96b-f0b9-4d2a-b233-46ef1360d389</id>
+    </Compile>
+    <Compile Include="Environment_Selection.cs">
+      <id>33f60aec-7d39-42f3-8df3-665f0cf14747</id>
+    </Compile>
+    <Compile Include="ExcelFunctions.cs">
+      <id>4bc1654e-e927-4909-858e-a2adad4197d8</id>
+    </Compile>
+    <Compile Include="Handle_DropDown.cs">
+      <id>536dda34-8a33-4beb-a02a-a020ee526afe</id>
+    </Compile>
+    <Compile Include="Page_Object.cs">
+      <id>4fc1064d-6678-4e24-b9e7-2c5ba46f55e8</id>
+    </Compile>
+    <Compile Include="Launch_Application.cs">
+      <id>09ce5b19-a664-4cde-a9f7-b51b5403c5d6</id>
+    </Compile>
+    <Compile Include="Login_Application.cs">
+      <id>87815ebb-bc18-4599-9546-64312fe27d5c</id>
+    </Compile>
+    <Compile Include="OpenBrowser.cs">
+      <BoundTo>e947ccdc-efc4-4e6d-b629-36dd55407724</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>0885f505-6d28-4634-bcb9-49b9b0c00517</id>
+    </Compile>
+    <Compile Include="OpenBrowser.UserCode.cs">
+      <BoundTo>e947ccdc-efc4-4e6d-b629-36dd55407724</BoundTo>
+      <DependentUpon>OpenBrowser.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>fe4f6557-b5c4-4756-b98e-7822ea357573</id>
+    </Compile>
+    <Compile Include="Page_Xpath.cs">
+      <id>7546cb3e-33d1-4688-87e6-3f24095e4b96</id>
+    </Compile>
+    <Compile Include="Program.cs">
+      <id>b75f78d9-7d62-4305-af59-8ef13ee00c01</id>
+    </Compile>
+    <Compile Include="Recording1.cs">
+      <BoundTo>9995ad47-e2ba-463f-ae5b-0d20d5434198</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <RecorderCode>true</RecorderCode>
+      <id>4a36698c-03bd-4efa-b4b0-db2c4cb4f5e5</id>
+    </Compile>
+    <Compile Include="Recording1.UserCode.cs">
+      <BoundTo>9995ad47-e2ba-463f-ae5b-0d20d5434198</BoundTo>
+      <DependentUpon>Recording1.rxrec</DependentUpon>
+      <UserCode>true</UserCode>
+      <id>f41b3b22-0b17-42fa-ade1-6387bb333f2b</id>
+    </Compile>
+    <Compile Include="NavigateToVehicleApp.cs">
+      <id>b09e454e-4f36-4c36-bb00-6535fba7c5a3</id>
+    </Compile>
+    <Compile Include="ReportToPDF_7.X.cs">
+      <id>d327fba6-cd00-4ed6-add1-6c7441d5b3c3</id>
+    </Compile>
+    <Compile Include="Submit_Vehicle_Form.cs">
+      <id>301afe30-80ac-4de1-a2f8-27e2c1b7f47f</id>
+    </Compile>
+    <Compile Include="Upload_Vehicle_App_Documents.cs">
+      <id>6e240dd4-89d4-4852-9242-d149e2e1d7ad</id>
+    </Compile>
+    <Compile Include="Validate_Application_Launched.cs">
+      <id>8546de7f-03cb-4087-876d-35589b4966d7</id>
+    </Compile>
+    <Compile Include="WebFunctions.cs">
+      <id>919e0804-2073-4236-8f8f-d96429b51190</id>
+    </Compile>
+    <Compile Include="XML_Validation.cs">
+      <id>60e2bfea-4197-4042-8fd1-86616f57203f</id>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config">
+      <id>164a115d-c38f-4e90-a184-dbea2738b176</id>
+    </None>
+    <None Include="CloseBrowser.rxrec">
+      <BoundTo>43fbf334-8943-4dfa-90c7-9e9dee337904</BoundTo>
+      <id>efb1959b-acf7-4c87-a2f9-d497a606f5b9</id>
+      <recordtableid>d5f0b5b5-f403-4e8a-a2cb-af463bdc181f</recordtableid>
+    </None>
+    <None Include="DemoRepository.rximg">
+      <BoundTo>43fbf334-8943-4dfa-90c7-9e9dee337904</BoundTo>
+      <DependentUpon>DemoRepository.rxrep</DependentUpon>
+      <imageblob>true</imageblob>
+      <id>69834dfc-dfce-45c1-b7eb-b8501585be44</id>
+    </None>
+    <None Include="DemoRepository.rxrep">
+      <id>43fbf334-8943-4dfa-90c7-9e9dee337904</id>
+      <repoid>b590ab70-9635-4d2a-a866-6ae20c0423bc</repoid>
+      <reporootid>1bb099e4-5eb9-4130-84cd-2ad7c4afe3d7</reporootid>
+    </None>
+    <None Include="OpenBrowser.rxrec">
+      <BoundTo>43fbf334-8943-4dfa-90c7-9e9dee337904</BoundTo>
+      <id>e947ccdc-efc4-4e6d-b629-36dd55407724</id>
+      <recordtableid>ccbee137-93fc-4862-bf73-dfa4ecaa2089</recordtableid>
+    </None>
+    <None Include="packages.config">
+      <id>381859ea-fca2-4cc9-bfdb-c3554a765d95</id>
+    </None>
+    <None Include="Recording1.rxrec">
+      <BoundTo>43fbf334-8943-4dfa-90c7-9e9dee337904</BoundTo>
+      <id>9995ad47-e2ba-463f-ae5b-0d20d5434198</id>
+      <recordtableid>ba0ef323-42d7-473c-8399-6e4d0629dc4a</recordtableid>
+    </None>
+    <None Include="TestData\TestData.xlsx">
+      <id>9f2e94fd-7f18-4134-a5fd-b6a0f7e71d68</id>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Demo.rxtmg">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>8c4f3cbf-b3bf-48b7-adf7-de8306836bfc</id>
+    </Content>
+    <Content Include="Demo.rxtst">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <id>17f9dc42-f875-4a45-9e6d-eb650486f57b</id>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="TestData">
+      <id>74606a40-d9d3-430a-986d-6db35daf8a7f</id>
+    </Folder>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(RanorexTargetsPath)" Condition="Exists('$(RanorexTargetsPath)')" />
+  <Import Project="..\packages\SpecFlow.NUnit.3.0.199\build\SpecFlow.NUnit.targets" Condition="Exists('..\packages\SpecFlow.NUnit.3.0.199\build\SpecFlow.NUnit.targets')" />
+</Project>
