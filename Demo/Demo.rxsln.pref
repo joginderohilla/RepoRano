@@ -4,6 +4,6 @@
   <SerializedValue name="ModuleBrowserState">
     <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" />
   </SerializedValue>
-  <ProjectBrowserState value="[]&#xD;&#xA;Solution Demo&#xD;&#xA;Solution Demo" />
+  <ProjectBrowserState value="[Solution Demo[]]&#xD;&#xA;Solution Demo&#xD;&#xA;Solution Demo" />
   <StartupProject value="{D7AF7348-A731-4835-B483-38989090FBDD}" />
 </Properties>

@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="3c80510c-b2f1-46d1-9e2a-a8b2d274af3b"
+mode="Global"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="Recording1"
+	namespace="Test">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<runapprecorditem
+		enabled="True"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<filename>
+				C:\Users\jrohilla\Documents\Ranorex\RanorexStudio Projects\Demo\Demo\bin\Debug\LPQ Automation Demo.exe
+			</filename>
+			<args>
+				False
+			</args>
+		</runapprecorditem>
+	</recorditems>
+	<repository
+	id="017dd166-eaf0-46d2-8080-7b945ba2b98b"
+	name="TestRepository"
+	relativepath="TestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="TestRepository"
+		namespace="Test">
+		</codegen>
+		<rootfolder
+		id="6e7475f2-db1a-46aa-a2a5-04a341620dda"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		Recording1.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

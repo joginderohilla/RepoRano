@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<testsuitedoc
+rxversion="9.0">
+	<testsuiteentryhierarchy>
+		<flatlistofchildren>
+			<testsuite
+			ReportTime="RelativeToTestSuiteStartTime"
+			TracingScreenshotMode="Foreground"
+			TracingScreenshotQuality="40"
+			VideoBitrate="2000"
+			VideoFps="15"
+			VideoRecordingMode="Off"
+			VideoSource="Auto"
+			enabletracingscreenshots="True"
+			id="580eebb4-55da-4984-824d-1b1c9e7f5891"
+			junitreport="False"
+			name="Test"
+			reportcompress="False"
+			reportdirectoryname="Reports"
+			reportenabled="True"
+			reportfilename="%S_%Y%M%D_%T.rxlog"
+			reporttemplatefolder=""
+			reportwriteinterval="30000ms"
+			showinvisiblechars="True">
+			</testsuite>
+			<testcase
+			id="e0ce736a-b7c7-46d9-9453-a2785a48d581"
+			name="Test"
+			reportlevel="Info;20">
+			</testcase>
+		</flatlistofchildren>
+		<childhierarchy>
+			<testsuite
+			id="580eebb4-55da-4984-824d-1b1c9e7f5891"
+			name="Test">
+				<testcase
+				id="e0ce736a-b7c7-46d9-9453-a2785a48d581"
+				name="Test">
+				</testcase>
+			</testsuite>
+		</childhierarchy>
+	</testsuiteentryhierarchy>
+	<datasources>
+	</datasources>
+	<testconfigurations
+	default="TestRun">
+		<testconfiguration
+		name="TestRun">
+			<testcontainer
+			id="e0ce736a-b7c7-46d9-9453-a2785a48d581">
+			</testcontainer>
+		</testconfiguration>
+	</testconfigurations>
+	<references>
+	</references>
+</testsuitedoc>
